@@ -19,7 +19,7 @@ const Bills = () => {
     })
   },[])
 
-  if (bills.length == 0){
+  if (bills.length < 0){
     return (
       <p>Loading info...</p>
     )

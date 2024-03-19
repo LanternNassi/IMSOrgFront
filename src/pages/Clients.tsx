@@ -240,7 +240,7 @@ const Clients = () => {
         ) : (null)}
       <div className="flex flex-col gap-10">
         {
-          (clients.length > 0)? (
+          (clients.length >= 0)? (
             <TableOne Clients={clients} AddClient={()=>{setShowModal(true)}}/>
           ) : (
             <div className="flex flex-col items-center justify-center mx-auto h-screen">
