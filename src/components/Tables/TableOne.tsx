@@ -77,7 +77,7 @@ const TableOne : React.FC<{AddClient : ()=>void , Clients : ClientStructure[]}> 
           </div>
         </div>
 
-        {clients.map((client, key) => (
+        {Clients.map((client, key) => (
 
           <NavLink className={"flex flex-col"} to = {"/profile/" + client.ClientID}>
             <button

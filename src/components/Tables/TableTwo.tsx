@@ -119,7 +119,7 @@ const TableTwo : React.FC<{TableName : string , Bills : BillStructure[]}> = ({Ta
         </div>
       </div>
 
-      {bills.map((bill, key) => (
+      {Bills.map((bill, key) => (
         <NavLink to = {"/backups/bill/" + bill.ID}>
         <button
           className="grid grid-cols-12 w-full border-t border-stroke py-4.5 px-4 dark:border-strokedark hover:bg-slate-100 active:text-sm sm:grid-cols-12 md:px-6 2xl:px-7.5"
